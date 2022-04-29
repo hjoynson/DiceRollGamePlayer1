@@ -103,3 +103,9 @@ img{
     animation-name: shake;
     animation-duration: 4s infinite;
   }
+
+  .button-box{
+    display: flex;
+    justify-content: center;
+    
+  }

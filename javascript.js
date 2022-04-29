@@ -17,25 +17,25 @@ document.getElementById("roll").addEventListener("click", () => {
     document.getElementById("score").innerHTML = score
 
 
-// Player 2
-let User2Total = 1;
+// // Player 2
+// let User2Total = 1;
 
    
-        // document.getElementById("sound").play()
-    document.getElementById("roll").addEventListener("click", () => {  
+//         // document.getElementById("sound").play()
+//     document.getElementById("roll").addEventListener("click", () => {  
     
     
-        // Generate a number
-        let diceRolled = Math.floor(Math.random()*6)+1;
+//         // Generate a number
+//         let diceRolled = Math.floor(Math.random()*6)+1;
     
     
-        // Generate dice image 
-        const seconddiceImage = 'assets/dice' + diceRolled + '.png';
+//         // Generate dice image 
+//         const seconddiceImage = 'assets/dice' + diceRolled + '.png';
     
-        // Insert dice image
-        document.querySelectorAll('img')[1].setAttribute('src', diceImage);
-        let score = User2Total += diceRolled;
-        document.getElementById("score").innerHTML = score
+//         // Insert dice image
+//         document.querySelectorAll('img')[1].setAttribute('src', diceImage);
+//         let score = User2Total += diceRolled;
+//         document.getElementById("score").innerHTML = score
 
 
     // Create win/lose scenario 
@@ -65,4 +65,4 @@ document.getElementById("winLose").textContent = ""
 
 }) 
 
-})
+
