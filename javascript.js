@@ -39,18 +39,6 @@
 // }
 
 
-// //Button to refresh the page
-
-// const refreshButton = document.querySelector('.refresh-button');
-
-// const refreshPage = () => {
-//   location.reload();
-// }
-
-// refreshButton.addEventListener('click', refreshPage)
-
-
-
 let User1Total = 0;
 
 document.getElementById("roll").addEventListener("click", () => {  
@@ -104,6 +92,18 @@ document.getElementById("roll").addEventListener("click", () => {
 })
 
 
+//Button to refresh the page
 
+const refreshButton = document.getElementById('refresh-button');
+
+const refreshPage = () => {
+  location.reload();
+}
+
+refreshButton.addEventListener('click',() => {
+document.getElementById("score").textContent = 0 
+document.getElementById("winLose").textContent = ""
+
+}) 
 
 
